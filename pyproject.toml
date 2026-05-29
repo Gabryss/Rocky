@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rocky"
+version = "0.1.0"
+description = "Procedural rock and boulder mesh and texture generator."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "BSD-3-Clause"}
+authors = [{name = "Gabriel"}]
+dependencies = [
+    "numpy>=1.24",
+    "Pillow>=10",
+    "rich>=13.7",
+    "trimesh>=4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
