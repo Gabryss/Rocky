@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# VSCode related 
+.vscode
+
 # C extensions
 *.so
 
@@ -50,6 +53,10 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+
+# Rocky generated assets
+outputs/
+output/
 
 # Translations
 *.mo
